@@ -6,12 +6,13 @@ circumference = 2 * math.pi * radius # obwód koła
 #print(f"The circimference is: {circumference}")
 print(f"The circimference is: {round(circumference, 2)}cm") # zaokrąglij do 2 miejsc po .
 
-area = math.pi * pow(radius, 2) # ** 2 pole koła 
+area = math.pi * pow(radius, 2) # ** 2 // pole koła 
 #print(f"The area of the circle is : {area}cm^2")
 print(f"The area of the circle is: {round(area, 2)}cm^2")
 
 ####
 
+#Wyznaczanie C w trójkącie prostokątnym znając A i B
 a = float(input("Enter side A (cm): "))
 b = float(input("Enter side B (cm): "))
 c = math.sqrt(pow(a, 2) + pow(b, 2))
