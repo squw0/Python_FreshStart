@@ -5,7 +5,7 @@ print(f"Hello {first_name}!!!")
 
 #int
 age = 25
-print(f"Youre {age} years old")
+print(f"You're {age} years old")
 
 
 #float
@@ -16,6 +16,6 @@ print(f"It costs {price}")
 #boolean
 is_student = False #True
 if is_student:
-    print("Youre a student!!!!!")
+    print("You're a student!!!!!")
 else:
-    print("Youre not a student :(")
+    print("You're not a student :(")
