@@ -74,7 +74,7 @@ bmw: Car = Car("bmw", 240)
 bmw.drive()
 bmw.get_info(2)
 
-"""
+
 #Dunder Methods
 
 
@@ -98,3 +98,40 @@ class Car:
 volvo: Car = Car("volvo", 200) # Class object
 bmw: Car = Car("bmw", 240)
 print(volvo + bmw)
+
+
+#User inputs instead of if-s
+def do_this():
+    print("Doing this")
+
+def do_that():
+    print("Doing that")
+
+match input("Do this or do that? "):
+    case "this":
+        do_this()
+    case "that":
+        do_that()
+    case _:
+        print("Invalid input!")
+
+
+
+#Python moves my mouse
+#pip install pyautogui
+
+import pyautogui as pag
+import keyboard
+import random
+import time
+print("Press N to exit ")
+while True:
+    if keyboard.is_pressed('n'):
+        print("Exiting the program")
+        break
+    x= random.randint(600,700)
+    y= random.randint(200,300)
+    pag.moveTo(x,y,0.5)
+    time.sleep(3)
+
+"""
