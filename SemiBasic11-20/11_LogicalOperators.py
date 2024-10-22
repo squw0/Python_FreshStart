@@ -1,4 +1,4 @@
-#or and not 
+#or and not  
 """
 temp = 20
 is_raining = False
